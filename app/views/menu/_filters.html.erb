@@ -1,0 +1,5 @@
+<div id="menu">
+  <%= render :partial => 'menu/important_filter' %>
+  <%= render :partial => 'menu/complete_filter' %>
+  <%= render :partial => 'menu/calendar_filter', :locals => {:due_date => @filter_params[:due_date]} %>
+</div>

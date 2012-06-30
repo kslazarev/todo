@@ -1,0 +1,6 @@
+<%= link_to '<', tasks_path(:due_date => due_date - 1.month) %> -
+<%= l due_date, :format => :month_name %> -
+<%= link_to '>', tasks_path(:due_date => due_date + 1.month) %> -
+
+<%= raw calendar_dates_for(due_date)%>
+

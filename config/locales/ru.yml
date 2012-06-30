@@ -1,0 +1,11 @@
+en:
+  important: Важные
+  unimportant: Не важные
+  complete: Завершённые
+  incomplete: Не завершённые
+  content: Задача
+
+  date:
+    formats:
+      default: '%d-%m-%Y'
+      month_name: '%B'

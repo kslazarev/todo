@@ -1,0 +1,14 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  important: Important
+  unimportant: Unimportant
+  complete: Complete
+  incomplete: Incomplete
+  content: Task
+
+  date:
+    formats:
+      default: '%d-%m-%Y'
+      month_name: '%B'
